@@ -1,0 +1,59 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    background: linear-gradient(to right, #000428, #004e92);
+    color: white;
+}
+
+.game-container {
+    margin-top: 20px;
+}
+
+#gameArea {
+    width: 320px;
+    height: 450px;
+    background: black;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    border: 3px solid white;
+}
+
+#player {
+    width: 40px;
+    height: 40px;
+    background: cyan;
+    position: absolute;
+    bottom: 10px;
+    left: 140px;
+    border-radius: 5px;
+}
+
+.enemy {
+    width: 40px;
+    height: 40px;
+    background: red;
+    position: absolute;
+    top: 0;
+}
+
+.bullet {
+    width: 6px;
+    height: 15px;
+    background: yellow;
+    position: absolute;
+}
+
+.powerup {
+    width: 25px;
+    height: 25px;
+    background: lime;
+    position: absolute;
+    border-radius: 50%;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
